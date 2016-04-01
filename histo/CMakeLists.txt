@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(calchisto)
+find_package(OpenCV REQUIRED)
+add_executable(calchisto calchisto.cpp)
+target_link_libraries(calchisto ${OpenCV_LIBS})

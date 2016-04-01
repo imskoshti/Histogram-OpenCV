@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pg210/Desktop/histo/test24/histogram.cpp
+../common.hpp
+-
+../ptr2d/traits.hpp
+-
+../ptr2d/gpumat.hpp
+-
+../ptr2d/mask.hpp
+-
+detail/histogram.hpp
+-
+

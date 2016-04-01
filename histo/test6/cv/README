@@ -1,0 +1,14 @@
+All programs are in the /src directory.
+Please do note that images are in ../data/* not in /src/data/
+
+# Linux
+#
+Installation =
+ sudo apt-get install libopencv-dev
+
+Compilation = 
+ g++ -w PROGRAM.c -o PROGRAM  -fpermissive `pkg-config --libs opencv`
+
+# Windows
+#
+Visual Studio or Dev-Cpp.

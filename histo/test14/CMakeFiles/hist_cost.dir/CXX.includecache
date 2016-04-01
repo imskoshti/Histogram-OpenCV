@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pg210/Desktop/histo/test14/hist_cost.cpp
+opencv2/imgproc.hpp
+/home/pg210/Desktop/histo/test14/opencv2/imgproc.hpp
+

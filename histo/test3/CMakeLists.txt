@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(display-histogram)
+find_package(OpenCV REQUIRED)
+add_executable(display-histogram display-histogram.cpp)
+target_link_libraries(display-histogram ${OpenCV_LIBS})
