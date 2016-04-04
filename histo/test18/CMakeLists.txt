@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(HistogramOpenCV)
+find_package(OpenCV REQUIRED)
+add_executable(HistogramOpenCV HistogramOpenCV.cpp)
+target_link_libraries(HistogramOpenCV ${OpenCV_LIBS})

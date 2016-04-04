@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(hist)
+find_package(OpenCV REQUIRED)
+add_executable(hist hist.cpp)
+target_link_libraries(hist ${OpenCV_LIBS})
